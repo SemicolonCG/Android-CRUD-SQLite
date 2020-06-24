@@ -12,10 +12,11 @@
         <activity android:name=".AddActivity"
             android:label="Add Book" android:parentActivityName=".MainActivity" />
         <activity
+
             android:name=".MainActivity"
             android:label="Book Library">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"  />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
